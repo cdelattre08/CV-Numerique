@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  width: 100%;
+  background-color: rgb(3, 175, 232);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+}
+.button {
+  width: 77%;
+  background-color: ();
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 10%;
+  margin: auto;
+  width: 75%;
+  background-color: rgb(3, 221, 232);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+}
+ul {
+  padding: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+}
+a {
+  border-radius: 7px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  line-height: 4;
+  color: white;
+}
+a:focus {
+  color: rgb(0, 47, 128);
+}
+a:hover {
+  color: rgb(0, 47, 128);
+}
+body, html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.text-align {
+  text-align: center;
+}
+#my-profile {
+  display: flex;
+  flex-direction: column;
+}
+#skills {
+  background-color: rgb(208, 206, 204);
+  color: black;
+}
+
+#adobe-skills {
+  display: flex;
+  flex-direction: column;
+}
+#languages-skills {
+  display: flex;
+  flex-direction: column;
+}
+:root {
+  --progress: #008172;
+}
+.progressbar-wrapper {
+  background-color: #dfe6e9;
+  color: white;
+  border-radius: 5px;
+  width: 25%;
+}
+.progressbar {
+  background-color: var(--progress);
+  color: white;
+  height: 1rem;
+  text-align: right;
+  border-radius: 5px;
+}
+.progressbar[title="progress"] {
+   background-color: var(--progress);
+}
+.illustrator-skills {
+  width: 40%;
+}
+.photoshop-skills {
+  width: 55%;
+}
+.indesign-skills {
+  width: 55%;
+}
+.premierepro-skills {
+  width: 65%;
+}
+.aftereffect-skills {
+  width: 20%;
+}
+.html-skills {
+  width: 80%;
+}
+/* .header {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+picto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 30px;
+}
+*/
