@@ -68,7 +68,7 @@ a:hover {
 #languages-skills  img:first-child {
   width: 8%;
 }
-#row-skills {
+#row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
