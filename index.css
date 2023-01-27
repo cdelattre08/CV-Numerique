@@ -2,6 +2,10 @@ body, html {
   font-family: 'Roboto', sans-serif;
   margin: auto;
 }
+img {
+  width: 12%;
+  height: 120px;
+}
 li {
   display: inline;
 }
@@ -50,6 +54,9 @@ a:hover {
   background-color: aquamarine;
   color: white;
 }
+#skills {
+  height: 800px;
+}
 #adobe-skills {
   display: flex;
   flex-direction: column;
@@ -57,6 +64,14 @@ a:hover {
 #languages-skills {
   display: flex;
   flex-direction: column;
+}
+#languages-skills  img:first-child {
+  width: 8%;
+}
+#row-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 #studies {
   display: flex;
