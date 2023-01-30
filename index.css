@@ -55,9 +55,11 @@ a:hover {
   color: white;
 }
 #skills {
+  margin-top: 90px;
   height: 800px;
 }
 #adobe-skills {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -66,12 +68,13 @@ a:hover {
   flex-direction: column;
 }
 #languages-skills  img:first-child {
-  width: 8%;
+  width: 6%;
 }
 #row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 #studies {
   display: flex;
@@ -83,40 +86,7 @@ a:hover {
 :root {
   --progress: #008172;
 }
-.progressbar-wrapper {
-  background-color: white;
-  color: white;
-  border-radius: 5px;
-  width: 25%;
-}
-.progressbar {
-  background-color: var(--progress);
-  color: white;
-  height: 1rem;
-  text-align: right;
-  border-radius: 5px;
-}
-.progressbar[title="progress"] {
-   background-color: var(--progress);
-}
-.illustrator-skills {
-  width: 40%;
-}
-.photoshop-skills {
-  width: 55%;
-}
-.indesign-skills {
-  width: 55%;
-}
-.premierepro-skills {
-  width: 65%;
-}
-.aftereffect-skills {
-  width: 20%;
-}
-.html-skills {
-  width: 80%;
-}
+
 /* 
 form {
   text-align: center;
