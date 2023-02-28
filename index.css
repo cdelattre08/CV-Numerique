@@ -38,6 +38,10 @@ a:hover {
   color: rgb(0, 47, 128);
   border-bottom: 2px solid rgb(0, 47, 128);
 }
+.textSize {
+  font-size: 40px;
+  color: rgb(0, 47, 128);
+}
 /* .container {
   display: flex;
   flex-direction: column;
@@ -56,6 +60,13 @@ a:hover {
   cursor: pointer;
   padding: 12px; 
 }
+#row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
 #profile {
   display: flex;
   flex-direction: column;
@@ -71,28 +82,23 @@ a:hover {
   height: 800px;
 }
 #skills img {
-  width: 10%;
-  height: 10%;
+  width: 12%;
+  height: 12%;
 }
 #adobe-skills {
   margin-top: 60px;
 }
-#row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 30px;
-}
 #studies {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 700px;
   background-color: cadetblue;
 }
 #experiences {
-  height: 700px;
+  height: 800px;
   display: flex;
+  text-align: justify;
+  flex-direction: column;
   align-items: center;
 }
 #languages-spoken {
@@ -104,7 +110,7 @@ a:hover {
   width: 20%;
   height: 180px;
 }
-@media screen and (max-width: 995px){
+@media screen and (min-width: 681px) and (max-width: 995px){
   #profile {
     height: 350px;
   }
@@ -113,41 +119,52 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
-  #skills {
-    margin-top: 20px;
-    height: 1700px;
+  #skills img {
+    width: 17%;
+    height: 17%;
   }
-  img {
-    width: 30%;
+  #skills {
+    margin-top: 70px;
+    height: 650px;
+  }
+  #languages-spoken img {
+    width: 25%;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 680px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #experiences {
+    height: 900px;
+  }
+  #skills {
+    height: 1600px;
+  }
+  #skills img {
+    width: 25%;
+    height: 25%;
   }
   #row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-}
-@media screen and (max-width: 385px) {
-  #experiences {
-    height: 900px;
-  }
-  img {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 680px) {
   a {
     color: rgb(0, 47, 128);
   }
-  ul.topnav {
+  /* ul.topnav {
     display: none;
   } 
   ul.topnav.menu-open {
-    /* affichage des items en colonne */
     display: flex;
     flex-direction: column;
     padding: 30px;
     background-color: #FFFFFF;
-    /* positionnement au dessus du reste de la page à côté du burger */
+  
     position: absolute;
     right: 0;
     top: 1;
@@ -158,5 +175,5 @@ a:hover {
     color: rgb(0, 47, 128);
     text-align: end;
     margin: 0 -50px 15px 0;
-  }
+  } */
 }
