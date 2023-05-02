@@ -38,6 +38,11 @@ a:hover {
   color: rgb(0, 47, 128);
   border-bottom: 2px solid rgb(0, 47, 128);
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .textSize {
   font-size: 40px;
   color: rgb(0, 47, 128);
@@ -71,7 +76,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 500px;
-  background-color: darkcyan;
+  background-color: #008B8B;
 }
 /* #profile img {
   height: 500px;
